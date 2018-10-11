@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Email Validation</string>
+    <string name="auto_comp_text_view_hint">Enter email</string>
+    <string name="submit_btn_text">Validate</string>
+    <string name="submit_btn_text_success">&#160;Valid</string>
+    <string name="err_disposable_domain">Cannot use a disposable domain</string>
+    <string name="err_misspelling">Likely misspelling of&#160;</string>
+    <string name="deliverable">deliverable</string>
+    <string name="is_valid">&#160;is valid</string>
+
+    <!--error messages-->
+    <string name="err_invalid_email">Specified email is not a valid email address syntax</string>
+    <string name="err_invalid_domain">Domain for email does not exist</string>
+    <string name="err_rejected_email">Email address was rejected by the SMTP server, email address does not exist</string>
+    <string name="err_no_connect">Could not connect to SMTP server</string>
+    <string name="err_timeout">SMTP session timed out</string>
+    <string name="err_invalid_smtp">SMTP server returned an unexpected/invalid response</string>
+    <string name="err_unavailable_smtp">SMTP server was unavailable to process our request</string>
+    <string name="err_unexpected">An unexpected error has occurred</string>
+    <string name="at_symbol">\@</string>
+    <string name="period">.</string>
+
+    <!--suggested domains-->
+    <string-array name="domains_array">
+        <item>\@gmail.com</item>
+        <item>\@yahoo.com</item>
+        <item>\@aol.com</item>
+        <item>\@hotmail.co.uk</item>
+        <item>\@hotmail.fr</item>
+        <item>\@msn.com</item>
+        <item>\@yahoo.fr</item>
+        <item>\@wanadoo.fr</item>
+        <item>\@orange.fr</item>
+        <item>\@comcast.net</item>
+        <item>\@yahoo.co.uk</item>
+        <item>\@yahoo.com.br</item>
+        <item>\@yahoo.co.in</item>
+        <item>\@live.com</item>
+        <item>\@rediffmail.com</item>
+        <item>\@free.fr</item>
+        <item>\@gmx.de</item>
+        <item>\@web.de</item>
+        <item>\@yandex.ru</item>
+    </string-array>
+
+</resources>
